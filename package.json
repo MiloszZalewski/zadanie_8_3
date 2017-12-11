@@ -1,0 +1,27 @@
+{
+  "name": "Metallica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:js": "glob-run jshint \"js/*.js\" ",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiloszZalewski/Metallica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiloszZalewski/Metallica/issues"
+  },
+  "homepage": "https://github.com/MiloszZalewski/Metallica#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "glob-run": "^0.1.6",
+    "jshint": "^2.9.5",
+    "onchange": "^3.2.1"
+  }
+}
